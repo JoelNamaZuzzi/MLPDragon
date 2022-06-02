@@ -20,14 +20,14 @@ Summary:
 1. The Dragon
 
 The Dragon has 8 parameters that can vary:
-1 Tail Length
-2 Neck Length
-3 Pair of Legs Number
-4 Legs Length
-5 Spike Heigth
-6 Mouth Length
-7 Teeths numbers
-8 Horns Length
+1. Tail Length
+2. Neck Length
+3. Pair of Legs Number
+4. Legs Length
+5. Spike Heigth
+6. Mouth Length
+7. Teeths numbers
+8. Horns Length
 
 We manually created the different parts of the dragon (made a model of legs and such in minecraft to generate the beast proceduraly from the results) individually 
 in order to multiply and put them together easily.
