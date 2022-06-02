@@ -17,8 +17,7 @@ Summary:
 5. Requirements
 6. Video Link
 
-
-1. The Dragon
+I. The Dragon
 
 The Dragon has 8 parameters that can vary:
 1. Tail Length
@@ -35,7 +34,7 @@ in order to multiply and put them together easily.
 These 8 parameters will vary 
 with the Genetic Algorithm and MLP in order to assemble & show the best dragon.
 
-2. Genetic Algorithm
+II. Genetic Algorithm
 
 Our Genetic Algorithm is composed of individuals, which has 2 parameters, a gene list and a fit (initialized at 0). The genes are our dragon parameters.
 And a generation List that just contains each generation of individuals (40 each).
@@ -44,7 +43,7 @@ We then make evolute our population (initialized at 10).
 For the selection we use the roulette wheel, and for the combine we use the cross combine and we mutate our population with a chance of 0.05.
 And then we do a fitness, we look each gene and if it's > 0.5 fitness gains 1.
 
-3. MLP
+III. MLP
 
 Thirdly, the MLP, we begin by creating a patern with 1 entry and the target value oftenly depends on other values (for example we don't want to have the neck longer than the legs).
 
@@ -58,20 +57,20 @@ Then we create an individual with the final values that will be taken for the Mi
 
 The minecraft Generation simply consist in taking the values in the order we want to generate the blocs in Minecraft.
 
-4. Conclusion
+IV. Conclusion
 
 The code generates dragons as you can see in our video, the project was for us a pretty good introduction to genetic development,with the genetic algorithm and mostly the mlp, for the neuron part. 
 With more time we probably would have made a better selection, fitness and combination. 
 But for a first project in this domain our team is pretty much satisfied.
 
-5. Requirements
+V. Requirements
 
 In order to run the project, you just need the two files provided in the GIT + the following libraries:
 Random
 Math
 Numpy
 
-6. Video Link
+VI. Video Link
 
 https://youtu.be/n_RAMJMa_HQ
 
