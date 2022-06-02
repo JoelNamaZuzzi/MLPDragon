@@ -72,3 +72,5 @@ Numpy
 
 6. Video Link
 
+https://youtu.be/n_RAMJMa_HQ
+
